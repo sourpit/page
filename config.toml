@@ -11,7 +11,7 @@ pygmentscodedefencesguesssyntax=true
 paginate=10 # articles per page
 
 [params]
-mode="toggle"
+mode="auto"
 subtitle="i wrote what i find cool"
 useCDN=false
 mathjax=false
@@ -34,6 +34,11 @@ url = "/posts"
 weight = 2
 
 [[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
 name = "Tags"
 url = "/tags"
-weight = 3
+weight = 4
