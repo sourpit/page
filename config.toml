@@ -1,0 +1,39 @@
+baseURL="https://sourpit.github.io/"
+languageCode="en-us"
+title="sourpit"
+theme="archie"
+
+# Code highlight
+pygmentsstyle="monokai"
+pygmentscodedefences=true
+pygmentscodedefencesguesssyntax=true
+
+paginate=10 # articles per page
+
+[params]
+mode="auto" # color-mode
+subtitle="i wrote what i find cool"
+useCDN=false
+mathjax=true
+katex=true
+
+[[params.social]]
+name = "Github"
+icon = "github"
+url = "https://github.com/sourpit"
+
+# Main menu items
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 3
