@@ -11,7 +11,7 @@ pygmentscodedefencesguesssyntax=true
 paginate=10 # articles per page
 
 [params]
-mode="auto" # color-mode
+mode="toggle"
 subtitle="i wrote what i find cool"
 useCDN=false
 mathjax=true
