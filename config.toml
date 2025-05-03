@@ -1,4 +1,4 @@
-baseURL="https://sourpit.github.io/"
+baseURL="https://sourpit.github.io/page"
 languageCode="en-us"
 title="sourpit"
 theme="archie"
@@ -14,8 +14,8 @@ paginate=10 # articles per page
 mode="toggle"
 subtitle="i wrote what i find cool"
 useCDN=false
-mathjax=true
-katex=true
+mathjax=false
+katex=false
 
 [[params.social]]
 name = "Github"
